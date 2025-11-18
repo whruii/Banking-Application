@@ -268,8 +268,8 @@ var currentAccount *Account // nil = не вошли в счёт
 
 **Все операции обновляют хранилище после перевода:**
  ```go
- _ = storage.SaveAccount(toAccount)
- _ = storage.SaveAccount(currentAccount)
+ - storage.SaveAccount(toAccount)
+ - storage.SaveAccount(currentAccount)
  ```
 
 ---
